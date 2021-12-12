@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2016",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "./types",
+    "outDir": "lib",
+    "paths": {
+      "@": ["src/*"],
+      "demo": ["example/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    // "example/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test CBML generater generate CBML Snapshot 1`] = `
+"/*<visible lib='golang'>
+alert('user golang');
+</visible>*/
+const a = 1
+/*<do />*/
+
+/*<block>*/
+alert('user golang');
+const a = 1
+/*</block>*/"
+`;
