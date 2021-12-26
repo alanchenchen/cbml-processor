@@ -3,6 +3,9 @@
 
 > Author：alanchenchen
 
+![](https://img.shields.io/npm/v/@alanchenchen/cbml-processor.svg)
+![](https://img.shields.io/npm/dt/@alanchenchen/cbml-processor.svg)
+
 ## Quote
 * [CBML定义](https://github.com/cbml/cbml)
 * [CBML Parser](https://github.com/cbml/cbmljs)
